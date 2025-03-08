@@ -1,4 +1,4 @@
-PROJECTNAME := 'imperial-provileged-cryptographical-datastore'
+PROJECTNAME := 'imperial_provileged_cryptographic_datastore'
 UNIXUSAT := 1741249843255
 AUTHOR := 'Sett Sarverott <sarverott@gmail.com> (https://sarverott.com/)'''
 
@@ -29,3 +29,12 @@ NOW:
 #	echo '# MOMENTARY POINTER INVOCATION #'
 	node -e 'console.log("UNIXUSAT=",Date.now())'
 
+indexMassProduction:
+	find ./src/*/ -type d -name  -exec node ./.craft/makescript.js {} \;
+#	x=$(pwd)
+#	for i in ./src/* ; do
+#  		if [ -d "$i" ]; then
+#    	echo "$i"
+#			#
+#  		fi
+#	done

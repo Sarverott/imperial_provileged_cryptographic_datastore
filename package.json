@@ -1,0 +1,23 @@
+{
+  "name": "imperial-privileged-cryptographical-datastore",
+  "version": "1.0.0",
+  "description": "attempt in facing challenges of future civilization projects topics - this one is file system with some additional advantages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/testrun.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarverott/imperial-provileged-cryptographical-datastore.git"
+  },
+  "keywords": [
+    "imperial",
+    "privileged"
+  ],
+  "author": "Sett Sarverott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarverott/imperial-provileged-cryptographical-datastore/issues"
+  },
+  "homepage": "https://github.com/Sarverott/imperial-provileged-cryptographical-datastore#readme"
+}
